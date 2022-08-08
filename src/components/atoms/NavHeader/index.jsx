@@ -7,9 +7,6 @@ function NavHeader() {
   const burguerMenu = () => {};
   return (
     <nav className="headerContainer">
-      <div className="headerContainer__menuIcon" onClick={burguerMenu}>
-        <div className="headerContainer__bar"></div>
-      </div>
       <ul className="headerContainer__list">
         <li>
           <BtnNavItem name="Inicio" />
@@ -24,6 +21,9 @@ function NavHeader() {
           <BtnNavItem name="Contato" />
         </li>
       </ul>
+      <div className="headerContainer__menuIcon" onClick={burguerMenu}>
+        <div className="headerContainer__bar"></div>
+      </div>
     </nav>
   );
 }
