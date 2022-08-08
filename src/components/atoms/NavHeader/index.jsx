@@ -4,10 +4,9 @@ import { BtnNavItem } from "../index";
 function NavHeader() {
   const [clicked, setClicked] = useState(false);
 
-  const burguerMenu = () => {};
   return (
-    <nav className="headerContainer">
-      <ul className="headerContainer__list">
+    <nav className="navContainer">
+      <ul className={`navContainer__items ${clicked && "open"}`}>
         <li>
           <BtnNavItem name="Inicio" />
         </li>
@@ -21,8 +20,11 @@ function NavHeader() {
           <BtnNavItem name="Contato" />
         </li>
       </ul>
-      <div className="headerContainer__menuIcon" onClick={burguerMenu}>
-        <div className="headerContainer__bar"></div>
+      <div
+        className={`nav-toggle ${clicked && "open"}`}
+        onClick={() => setClicked(!clicked)}
+      >
+        <div className="bar"></div>
       </div>
     </nav>
   );
