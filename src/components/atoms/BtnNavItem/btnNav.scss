@@ -9,5 +9,21 @@
     color: #ffff;
     font-size: 1.2rem;
     cursor: pointer;
+    &:hover {
+      opacity: 1;
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 0%;
+      height: 2px;
+      background-color: #ffff;
+      transition: all 0.45s;
+    }
+    &:hover::before {
+      width: 100%;
+    }
   }
 }
