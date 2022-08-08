@@ -1,9 +1,12 @@
 import "./nav.scss";
 function NavHeader() {
   return (
-    <nav>
+    <nav className="headerContainer">
       <ul>
-        <li></li>
+        <li>Inicio</li>
+        <li>Sobre mim</li>
+        <li>Projetos</li>
+        <li>Contato</li>
       </ul>
     </nav>
   );
