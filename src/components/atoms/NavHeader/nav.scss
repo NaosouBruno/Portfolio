@@ -13,4 +13,19 @@
     display: flex;
     list-style: none;
   }
+  &__menuIcon {
+    @media screen {
+      @media (min-width: 700px) {
+        display: none;
+      }
+    }
+    display: flex;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  &__bar {
+  }
 }

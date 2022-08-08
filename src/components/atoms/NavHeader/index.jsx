@@ -8,7 +8,7 @@ function NavHeader() {
   return (
     <nav className="headerContainer">
       <div className="headerContainer__menuIcon" onClick={burguerMenu}>
-        <i className={clicked ? "fas fas-times" : "fas fas-bars"}></i>
+        <div className="headerContainer__bar"></div>
       </div>
       <ul className="headerContainer__list">
         <li>
