@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <NavHeader />
-      <NameTitle />
+      {/* <NameTitle /> */}
     </div>
   );
 }
