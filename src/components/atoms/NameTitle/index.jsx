@@ -14,8 +14,11 @@ function NameTtile() {
         </span>{" "}
         e sou
       </h1>
-      <span className="titleContainer__typografy titleContainer__typografy--proffesion">
-        Desenvolvedor Front End
+      <span
+        className="titleContainer__typografy titleContainer__typografy--proffesion"
+        data-text="&nbsp;Desenvolvedor Front End&nbsp;"
+      >
+        &nbsp;Desenvolvedor Front End&nbsp;
       </span>
     </div>
   );

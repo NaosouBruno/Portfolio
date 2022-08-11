@@ -29,6 +29,7 @@
       }
     }
     &.open {
+      z-index: 10;
       transform: translateX(0);
     }
   }
