@@ -1,15 +1,22 @@
 import "./nameTitle.scss";
+import Me from "../../../assets/eu.jpeg";
 function NameTtile() {
   return (
     <div className="titleContainer">
+      <img src={Me} className="titleContainer--selfie" alt="Selfie" />
       <h1
-        className="titleContainer--neon"
+        className="titleContainer__typografy titleContainer__typografy--title"
         data-text="Dev. Front End Bruno Silva"
       >
-        Dev. Front End Bruno Silva
+        Olá, me chamo{" "}
+        <span className="titleContainer__typografy titleContainer__typografy--myName">
+          Bruno Silva
+        </span>{" "}
+        e sou
       </h1>
-      <div className="titleContainer--gradient"></div>
-      <div className="titleContainer--spotlight"></div>
+      <span className="titleContainer__typografy titleContainer__typografy--proffesion">
+        Desenvolvedor Front End
+      </span>
     </div>
   );
 }
