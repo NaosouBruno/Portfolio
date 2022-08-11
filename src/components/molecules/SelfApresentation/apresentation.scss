@@ -1,12 +1,11 @@
 .titleContainer {
-  margin: 50px 0 0 5px;
+  min-height: 60%;
 
-  /*   width: 350px;
-  height: 100px; */
   border: 1px solid red;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   &--selfie {
     @media screen {
       @media (min-width: 700px) {
@@ -18,10 +17,13 @@
     display: none;
   }
   &__typografy {
-    color: #fff;
-    &--title {
+    font-family: "Lora", serif;
+    color: rgb(181, 176, 176);
+    font-size: 1.2rem;
+
+    /* &--title {
       font-size: 1.5rem;
-    }
+    } */
     &--myName {
       font-size: 1.7rem;
       &:hover {
@@ -29,21 +31,23 @@
       }
     }
     &--proffesion {
+      font-family: "Aboreto", cursive;
       position: relative;
       text-transform: uppercase;
-      margin-top: 15px;
+      margin-top: 50px;
       font-size: 1.6rem;
       font-weight: 700;
       &::before {
         content: attr(data-text);
         position: absolute;
-        color: red;
+        color: rgb(50, 67, 196);
         width: 100px;
         overflow: hidden;
         white-space: nowrap;
-        border-right: 4px solid green;
+        border-right: 4px solid rgb(0, 34, 224);
         animation: animate 8s linear infinite;
-        filter: drop-shadow(0 0 20px blue) drop-shadow(0 0 50px blue);
+        filter: drop-shadow(0 0 20px rgb(255, 255, 255))
+          drop-shadow(0 0 50px blue);
       }
     }
   }

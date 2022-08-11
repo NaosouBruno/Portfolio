@@ -1,10 +1,10 @@
-import { NavHeader, NameTitle } from "./components/atoms/index";
-
+import { NavHeader } from "./components/atoms/index";
+import { SelfApresentation } from "./components/molecules/index";
 function App() {
   return (
     <div className="App">
       <NavHeader />
-      <NameTitle />
+      <SelfApresentation />
     </div>
   );
 }

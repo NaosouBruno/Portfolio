@@ -1,4 +1,4 @@
-import "./nameTitle.scss";
+import "./apresentation.scss";
 import Me from "../../../assets/eu.jpeg";
 function NameTtile() {
   return (
@@ -12,7 +12,6 @@ function NameTtile() {
         <span className="titleContainer__typografy titleContainer__typografy--myName">
           Bruno Silva
         </span>{" "}
-        e sou
       </h1>
       <span
         className="titleContainer__typografy titleContainer__typografy--proffesion"
@@ -20,6 +19,11 @@ function NameTtile() {
       >
         &nbsp;Desenvolvedor Front End&nbsp;
       </span>
+
+      <div>
+        <button>Linkedin</button>
+        <button>Github</button>
+      </div>
     </div>
   );
 }
