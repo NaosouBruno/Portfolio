@@ -1,5 +1,5 @@
 
-### Portfolio Dev. Front End - Bruno Silva
+
 
 <h1 align="center">Portfolio Dev. Front End - Bruno Silva</h1>
 
