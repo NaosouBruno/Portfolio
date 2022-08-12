@@ -1,11 +1,13 @@
 import "./apresentation.scss";
+import { ButtonsSociais } from "../../atoms/index";
+
 import Me from "../../../assets/eu.jpeg";
 function NameTtile() {
   return (
     <div className="titleContainer">
       <img src={Me} className="titleContainer--selfie" alt="Selfie" />
       <h1
-        className="titleContainer__typografy titleContainer__typografy--title"
+        className="titleContainer__typografy "
         data-text="Dev. Front End Bruno Silva"
       >
         Olá, me chamo{" "}
@@ -21,8 +23,7 @@ function NameTtile() {
       </span>
 
       <div>
-        <button>Linkedin</button>
-        <button>Github</button>
+        <ButtonsSociais />
       </div>
     </div>
   );

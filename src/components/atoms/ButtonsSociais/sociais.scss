@@ -1,0 +1,12 @@
+.sociaisGroup {
+  display: flex;
+  &__socialButton {
+    cursor: pointer;
+    margin: 20px 15px;
+    border: none;
+    background-color: transparent;
+  }
+  &--icon {
+    height: 50px;
+  }
+}
