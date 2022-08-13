@@ -7,12 +7,10 @@ function ButtonsSociais() {
   return (
     <IconContext.Provider
       value={{
-        /*  color: "cornflowerblue", */
-
         size: "3em",
       }}
     >
-      <div /* className="sociaisGroup" */>
+      <div className="sociaisGroup">
         <button className="sociaisGroup__socialButton">
           <a href="https://github.com/NaosouBruno">
             <GoMarkGithub

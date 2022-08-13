@@ -1,28 +1,28 @@
 import "./apresentation.scss";
 import { ButtonsSociais } from "../../atoms/index";
 
-import Me from "../../../assets/eu.jpeg";
+import Me from "../../../assets/eu2.jpeg";
 function NameTtile() {
   return (
     <div className="titleContainer">
       <img src={Me} className="titleContainer--selfie" alt="Selfie" />
       <h1
-        className="titleContainer__typografy "
+        className="titleContainer__typografy titleContainer__typografy--desc "
         data-text="Dev. Front End Bruno Silva"
       >
-        Olá, me chamo{" "}
+        Olá, eu sou{" "}
         <span className="titleContainer__typografy titleContainer__typografy--myName">
           Bruno Silva
         </span>{" "}
       </h1>
-      <span
-        className="titleContainer__typografy titleContainer__typografy--proffesion"
-        data-text="&nbsp;Desenvolvedor Front End&nbsp;"
-      >
-        &nbsp;Desenvolvedor Front End&nbsp;
-      </span>
 
-      <div>
+      <div className="titleContainer__infos">
+        <span
+          className="titleContainer__typografy titleContainer__typografy--proffesion"
+          data-text="&nbsp;Desenvolvedor Front End&nbsp;"
+        >
+          &nbsp;Desenvolvedor Front End&nbsp;
+        </span>
         <ButtonsSociais />
       </div>
     </div>

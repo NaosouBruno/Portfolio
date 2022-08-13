@@ -1,30 +1,60 @@
 .titleContainer {
-  min-height: 60%;
+  min-height: 85%;
 
-  /* border: 1px solid red; */
+  border: 1px solid red;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  @media screen {
+    @media (min-width: 700px) {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+  }
   &--selfie {
     @media screen {
       @media (min-width: 700px) {
         display: block;
-        width: 300px;
-        height: 280px;
+        border-radius: 10%;
+        width: 301px;
+        height: 346px;
       }
     }
     display: none;
+  }
+  &__infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   &__typografy {
     font-family: "Lora", serif;
     color: rgb(181, 176, 176);
     font-size: 1.2rem;
 
+    &--desc {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      @media screen {
+        @media (min-width: 700px) {
+          font-size: 2.5rem;
+        }
+      }
+    }
+
     &--myName {
       font-size: 1.7rem;
+      @media screen {
+        @media (min-width: 700px) {
+          font-size: 3.5rem;
+        }
+      }
       &:hover {
-        color: red;
+        color: rgb(208, 186, 17);
       }
     }
     &--proffesion {
@@ -34,6 +64,11 @@
       margin-top: 50px;
       font-size: 1.6rem;
       font-weight: 700;
+      @media screen {
+        @media (min-width: 700px) {
+          margin-top: 0;
+        }
+      }
       &::before {
         content: attr(data-text);
         position: absolute;
