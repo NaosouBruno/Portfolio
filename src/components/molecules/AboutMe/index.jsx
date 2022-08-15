@@ -1,64 +1,25 @@
 import "./about.scss";
-
+import Zezin from "../../../assets/euezezinho.jpeg";
+import { ProgressBar } from "../index";
 function AboutMe() {
   return (
-    <div id="sobreMim" className="about">
-      <p>
-        orem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsu
-      </p>
-      <p>
-        orem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsu
-      </p>
-      <p>
-        orem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsu
-      </p>
-      <p>
-        orem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsu
-      </p>
-      <p>
-        orem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsu
-      </p>
-    </div>
+    <section id="sobreMim" className="about">
+      <div className="about__headerInfos">
+        <div>
+          <img src={Zezin} alt="Eu e meu gato" className="about--selfie" />
+        </div>
+        <div className="about__containerDesc">
+          <p className="about--desc">
+            Olá novamente, fico feliz que esteja aqui, esse sou eu com meu gato
+            Zezinho. Nós moramos em Corumbá - MS também conhecida como a capital
+            do pantanal, sou formado em Sistemas de Informação pela UFMS e meu
+            foco é no front end, não possuo muita experiencia mas tenho força de
+            vontade de sobra. Abaixo você encontra meu mapa de conhecimentos:
+          </p>
+        </div>
+      </div>
+      <ProgressBar />
+    </section>
   );
 }
 

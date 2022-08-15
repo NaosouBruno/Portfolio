@@ -4,7 +4,7 @@ import { ButtonsSociais } from "../../atoms/index";
 import Me from "../../../assets/eu2.jpeg";
 function NameTtile() {
   return (
-    <div className="titleContainer" id="start">
+    <section className="titleContainer" id="start">
       <div className="titleContainer__containerSelfie">
         <img src={Me} className="titleContainer--selfie" alt="Selfie" />
       </div>
@@ -29,7 +29,7 @@ function NameTtile() {
           <ButtonsSociais />
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

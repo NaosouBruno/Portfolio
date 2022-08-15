@@ -1,4 +1,22 @@
 .about {
+  display: flex;
+  flex-direction: column;
   border: 1px solid blue;
   min-width: 75%;
+  padding: 10px;
+  &__headerInfos {
+    display: flex;
+    align-items: center;
+  }
+  &--selfie {
+    width: 200px;
+    border-radius: 10px;
+  }
+  &__containerDesc {
+    margin-left: 10px;
+  }
+  &--desc {
+    font-family: "Lora", serif;
+    color: #fff;
+  }
 }
