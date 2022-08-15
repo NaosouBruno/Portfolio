@@ -1,4 +1,11 @@
 .btnNav {
+  &--itemLink {
+    color: #fff;
+    text-decoration: none;
+    &:link {
+      text-decoration: none;
+    }
+  }
   &--itemName {
     background-color: transparent;
     margin: 15px;
@@ -8,7 +15,7 @@
     position: relative;
     opacity: 0.9;
     border: none;
-    color: #ffff;
+    /* color: #ffff; */
     font-size: 1.2rem;
     cursor: pointer;
     &:hover {

@@ -1,10 +1,11 @@
 import { NavHeader } from "./components/atoms/index";
-import { SelfApresentation } from "./components/molecules/index";
+import { SelfApresentation, AboutMe } from "./components/molecules/index";
 function App() {
   return (
     <div className="App">
       <NavHeader />
       <SelfApresentation />
+      <AboutMe />
     </div>
   );
 }
