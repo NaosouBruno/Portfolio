@@ -6,3 +6,7 @@
 .App {
   height: 100vh;
 }
+
+body {
+  background: #1c2137;
+}

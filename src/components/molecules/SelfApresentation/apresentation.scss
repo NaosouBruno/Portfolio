@@ -1,0 +1,117 @@
+.titleContainer {
+  min-height: 85%;
+
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  @media screen {
+    @media (min-width: 700px) {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+  }
+  &__containerSelfie {
+    @media screen {
+      @media (min-width: 700px) {
+        order: 2;
+      }
+    }
+  }
+  &__containerInfo {
+    @media screen {
+      @media (min-width: 700px) {
+        order: 1;
+      }
+    }
+  }
+  &--selfie {
+    @media screen {
+      @media (min-width: 700px) {
+        display: block;
+        border-radius: 10%;
+        width: 301px;
+        height: 346px;
+      }
+    }
+    display: none;
+  }
+  &__infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @media screen {
+      @media (min-width: 700px) {
+        flex-basis: 100%;
+      }
+    }
+  }
+  &__typografy {
+    font-family: "Lora", serif;
+    color: rgb(181, 176, 176);
+    font-size: 1.2rem;
+
+    &--desc {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      @media screen {
+        @media (min-width: 700px) {
+          font-size: 2.5rem;
+        }
+      }
+    }
+
+    &--myName {
+      font-size: 1.7rem;
+      @media screen {
+        @media (min-width: 700px) {
+          font-size: 3.5rem;
+        }
+      }
+      &:hover {
+        color: rgb(208, 186, 17);
+      }
+    }
+    &--proffesion {
+      font-family: "Aboreto", cursive;
+      position: relative;
+      text-transform: uppercase;
+      margin-top: 50px;
+      font-size: 1.6rem;
+      font-weight: 700;
+      @media screen {
+        @media (min-width: 700px) {
+          margin-top: 10px;
+        }
+      }
+      &::before {
+        content: attr(data-text);
+        position: absolute;
+        color: rgb(208, 186, 17);
+        width: 100px;
+        overflow: hidden;
+        white-space: nowrap;
+        border-right: 4px solid rgb(1, 3, 16);
+        animation: animate 8s linear infinite;
+        filter: drop-shadow(0 0 20px rgb(255, 255, 255))
+          drop-shadow(0 0 50px blue);
+      }
+    }
+  }
+}
+
+@keyframes animate {
+  0%,
+  10%,
+  100% {
+    width: 0;
+  }
+  70%,
+  90% {
+    width: 100%;
+  }
+}
