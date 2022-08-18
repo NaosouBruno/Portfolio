@@ -1,15 +1,15 @@
-import { useState } from "react";
+/* import { useState } from "react"; */
 
 import "./about.scss";
 import Zezin from "../../../assets/euezezinho.jpeg";
-import { ProgressBar, VideoApresentation } from "../index";
+import { ProgressBar /* VideoApresentation */ } from "../index";
 
 function AboutMe() {
-  const [openVideo, setOpenVideo] = useState(false);
+  /*  const [openVideo, setOpenVideo] = useState(false);
 
   const startVideo = () => {
     setOpenVideo(true);
-  };
+  }; */
   return (
     <section id="sobreMim" className="about">
       <div className="about__headerInfos">
@@ -28,11 +28,11 @@ function AboutMe() {
       </div>
       <ProgressBar />
 
-      {!openVideo ? (
+      {/*  {!openVideo ? (
         <button onClick={startVideo}>Ver video</button>
       ) : (
         <VideoApresentation />
-      )}
+      )} */}
     </section>
   );
 }
