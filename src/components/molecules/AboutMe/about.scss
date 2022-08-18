@@ -1,9 +1,16 @@
 .about {
   display: flex;
   flex-direction: column;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   min-width: 75%;
   padding: 10px;
+  align-items: center;
+  /*  @media screen {
+    @media (min-width: 700px) {
+      align-items: center;
+    }
+  } */
+
   &__headerInfos {
     display: flex;
     align-items: center;
@@ -18,5 +25,6 @@
   &--desc {
     font-family: "Lora", serif;
     color: #fff;
+    font-size: 0.9rem;
   }
 }

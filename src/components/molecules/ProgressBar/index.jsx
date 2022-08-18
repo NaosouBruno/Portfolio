@@ -2,7 +2,7 @@ import "./progress.scss";
 
 function ProgressBar() {
   return (
-    <div className="skills">
+    <div className="skills" data-anime="animation">
       <div className="skills__bar">
         <div className="skills__info">
           <span>HTML</span>

@@ -7,16 +7,16 @@ function NavHeader() {
   return (
     <nav className="navContainer">
       <ul className={`navContainer__items ${clicked && "open"}`}>
-        <li>
+        <li onClick={() => setClicked(!clicked)}>
           <BtnNavItem name="Inicio" link="start" />
         </li>
-        <li>
+        <li onClick={() => setClicked(!clicked)}>
           <BtnNavItem name="Sobre mim" link="sobreMim" />
         </li>
-        <li>
+        <li onClick={() => setClicked(!clicked)}>
           <BtnNavItem name="Projetos" link="projects" />
         </li>
-        <li>
+        <li onClick={() => setClicked(!clicked)}>
           <BtnNavItem name="Contato" link="contact" />
         </li>
       </ul>
