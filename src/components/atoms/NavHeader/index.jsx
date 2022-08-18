@@ -14,7 +14,7 @@ function NavHeader() {
           <BtnNavItem name="Sobre mim" link="sobreMim" />
         </li>
         <li onClick={() => setClicked(!clicked)}>
-          <BtnNavItem name="Projetos" link="projects" />
+          <BtnNavItem name="Projetos" link="projetos" />
         </li>
         <li onClick={() => setClicked(!clicked)}>
           <BtnNavItem name="Contato" link="contact" />
