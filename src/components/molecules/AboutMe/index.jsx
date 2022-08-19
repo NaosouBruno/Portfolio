@@ -2,7 +2,7 @@
 
 import "./about.scss";
 import Zezin from "../../../assets/euezezinho.jpeg";
-import { ProgressBar /* VideoApresentation */ } from "../index";
+import { ProgressBar /* VideoApresentation */, DownCurriculo } from "../index";
 
 function AboutMe() {
   /*  const [openVideo, setOpenVideo] = useState(false);
@@ -26,7 +26,9 @@ function AboutMe() {
           </p>
         </div>
       </div>
+
       <ProgressBar />
+      <DownCurriculo />
 
       {/*  {!openVideo ? (
         <button onClick={startVideo}>Ver video</button>

@@ -1,5 +1,6 @@
 import "./apresentation.scss";
 import { ButtonsSociais } from "../../atoms/index";
+import ScrollDown from "../../../assets/scroll-down-mouse.gif";
 
 import Me from "../../../assets/eu2.jpeg";
 function NameTtile() {
@@ -29,6 +30,11 @@ function NameTtile() {
           <ButtonsSociais />
         </div>
       </div>
+      <img
+        src={ScrollDown}
+        alt="ScrollDown"
+        className="titleContainer--scrollDown"
+      />
     </section>
   );
 }

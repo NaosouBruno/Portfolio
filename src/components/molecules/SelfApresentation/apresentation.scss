@@ -102,6 +102,12 @@
       }
     }
   }
+
+  &--scrollDown {
+    width: 55px;
+    position: absolute;
+    top: 93%;
+  }
 }
 
 @keyframes animate {
