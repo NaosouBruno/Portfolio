@@ -43,6 +43,14 @@ function ProgressBar() {
           <span className="skills__progressBar"></span>
         </div>
       </div>
+      <div className="skills__bar">
+        <div className="skills__info">
+          <span>Inglês</span>
+        </div>
+        <div className="skills__progress ing">
+          <span className="skills__progressBar"></span>
+        </div>
+      </div>
     </div>
   );
 }

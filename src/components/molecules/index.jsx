@@ -4,4 +4,4 @@ export { default as ProgressBar } from "./ProgressBar";
 export { default as VideoApresentation } from "./VideoApresentation";
 export { default as Projects } from "./Projects";
 export { default as CardProjects } from "./CardProjects";
-export { default as DownCurriculo } from "./DownloadCurriculo";
+export { default as DownCurriculo } from "./ButtonsAbout";

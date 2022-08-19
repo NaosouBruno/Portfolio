@@ -109,6 +109,14 @@
     }
   }
 }
+.ing {
+  & > .skills__progressBar {
+    width: 50%;
+    &::after {
+      content: "40%";
+    }
+  }
+}
 
 @keyframes progressBar {
   100% {

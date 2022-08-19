@@ -21,8 +21,9 @@ function AboutMe() {
             Olá novamente, fico feliz que esteja aqui, esse sou eu com meu gato
             Zezinho. Nós moramos em Corumbá - MS também conhecida como a capital
             do pantanal, sou formado em Sistemas de Informação pela UFMS e meu
-            foco é no front end, não possuo muita experiencia mas tenho força de
-            vontade de sobra. Abaixo você encontra meu mapa de conhecimentos:
+            foco é no front end. Nesse portfólio você irar encontrar os projetos
+            que desenvolvi, as tecnologias que domino, um video de introdução em
+            inglês e opções de entrar em contato.
           </p>
         </div>
       </div>
