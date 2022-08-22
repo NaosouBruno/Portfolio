@@ -1,0 +1,53 @@
+.projects {
+  margin-top: 25px;
+  min-height: 93%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+  @media screen {
+    @media (min-width: 700px) {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  }
+  &__typografy {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    @media screen {
+      @media (min-width: 700px) {
+        flex-basis: 100%;
+      }
+    }
+  }
+  &--title {
+    font-size: 1.5em;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+
+  &--desc {
+    font-size: 1.2em;
+    color: #fff;
+    max-width: 350px;
+    &::before {
+      content: "";
+    }
+    &::after {
+      content: "Clica na imagem para vê as informaçes de cada projeto.";
+    }
+    @media screen {
+      @media (min-width: 700px) {
+        min-width: 520px;
+        &::before {
+          content: "";
+        }
+        &::after {
+          content: "Passe o mouse pela imagem para vê as informaçes de cada projeto.";
+        }
+      }
+    }
+  }
+}

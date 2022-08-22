@@ -1,0 +1,18 @@
+[
+  {
+    "id": "1",
+    "logo": "./foodland.png",
+    "logoAlt": "Foodieland logo",
+    "title": "Foodieland",
+    "desc": "Projeto proposto no bootcamp da Valtech, desenvolvido em grupo. Consiste na criação de blog de receitas, nesse projeto utilizamos de conceitos como Atomic Design, BEM, Mobile First. Além de tecnologias como React, React Router, Redux e SASS",
+    "url": "https://github.com/NaosouBruno/V-Food"
+  },
+  {
+    "id": "2",
+    "logo": "../assets/pokedexLogo.png",
+    "logoAlt": "Pokedex logo",
+    "title": "Pokedex",
+    "desc": "Atividade proposta no bootcamp da Valtech, desenvolvido em dupla. Consiste em consumir a API de PokeApi, projeto feito em React.",
+    "url": "https://github.com/NaosouBruno/Desafio-PokeDex"
+  }
+]

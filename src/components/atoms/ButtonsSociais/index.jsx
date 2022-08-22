@@ -13,16 +13,12 @@ function ButtonsSociais() {
       <div className="sociaisGroup">
         <button className="sociaisGroup__socialButton">
           <a href="https://github.com/NaosouBruno">
-            <GoMarkGithub
-              className="sociais--icon"
-              color="#fff"
-              title="Github link"
-            />
+            <GoMarkGithub color="#fff" title="Github link" />
           </a>
         </button>
         <button className="sociaisGroup__socialButton">
           <a href="https://www.linkedin.com/in/bruno-silva-759603163/">
-            <FaLinkedin className="sociais--icon" size="3em" color="#fff" />
+            <FaLinkedin size="3em" color="#fff" />
           </a>
         </button>
       </div>

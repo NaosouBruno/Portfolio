@@ -1,10 +1,11 @@
 import "./apresentation.scss";
 import { ButtonsSociais } from "../../atoms/index";
+import ScrollDown from "../../../assets/scroll-down-mouse.gif";
 
 import Me from "../../../assets/eu2.jpeg";
 function NameTtile() {
   return (
-    <div className="titleContainer">
+    <section className="titleContainer" id="start">
       <div className="titleContainer__containerSelfie">
         <img src={Me} className="titleContainer--selfie" alt="Selfie" />
       </div>
@@ -29,7 +30,12 @@ function NameTtile() {
           <ButtonsSociais />
         </div>
       </div>
-    </div>
+      <img
+        src={ScrollDown}
+        alt="ScrollDown"
+        className="titleContainer--scrollDown"
+      />
+    </section>
   );
 }
 
