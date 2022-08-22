@@ -1,9 +1,10 @@
+import "./contactButtons.scss";
 import { TiMail } from "react-icons/ti";
 import { AiOutlineWhatsApp } from "react-icons/ai";
 
 function ContactButtons() {
   return (
-    <div>
+    <div className="contactButtons">
       <div className="box">
         <button className="curiculoContainer">
           <TiMail className="curiculoContainer--icon" color="#fff" />
