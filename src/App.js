@@ -3,6 +3,7 @@ import {
   SelfApresentation,
   AboutMe,
   Projects,
+  Contact,
 } from "./components/molecules/index";
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <SelfApresentation />
       <AboutMe />
       <Projects />
+      <Contact />
     </div>
   );
 }
