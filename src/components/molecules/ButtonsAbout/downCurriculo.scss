@@ -1,0 +1,21 @@
+.curiculoContainer {
+  position: absolute;
+  inset: 5px;
+  border-radius: 16px;
+  z-index: 1;
+  background: #0c1022;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &--icon {
+    margin-right: 15px;
+  }
+  &--download {
+    text-decoration: none;
+    color: rgb(185, 171, 171);
+    font-family: "Lora", serif;
+    font-weight: 700;
+    font-size: 1.5em;
+  }
+}
