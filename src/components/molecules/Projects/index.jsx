@@ -16,8 +16,10 @@ function Projects() {
   )); */
   return (
     <section id="projetos" className="projects">
-      <h2 className="projects--title">Projetos</h2>
-      <p className="projects--desc"></p>
+      <div className="projects__typografy">
+        <h2 className="projects--title">Projetos</h2>
+        <p className="projects--desc"></p>
+      </div>
       {/*   {maped} */}
       <CardProjects
         projectLogo={food}

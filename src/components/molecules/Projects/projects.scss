@@ -1,12 +1,27 @@
 .projects {
-  /* margin-top: 25px; */
+  margin-top: 25px;
   min-height: 93%;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* flex-wrap: wrap;
- */
+
   flex-direction: column;
+  @media screen {
+    @media (min-width: 700px) {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  }
+  &__typografy {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    @media screen {
+      @media (min-width: 700px) {
+        flex-basis: 100%;
+      }
+    }
+  }
   &--title {
     font-size: 1.5em;
     color: #fff;
