@@ -5,11 +5,14 @@
   min-width: 75%;
   padding: 10px;
   align-items: center;
-  /*  @media screen {
+  background: #2c324c;
+  border-radius: 25px;
+  margin-top: 60px;
+  @media screen {
     @media (min-width: 700px) {
-      align-items: center;
+      padding: 20px;
     }
-  } */
+  }
 
   &__headerInfos {
     display: flex;

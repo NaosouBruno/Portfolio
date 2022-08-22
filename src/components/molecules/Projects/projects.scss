@@ -1,6 +1,37 @@
-/* .projects {
+.projects {
+  /* margin-top: 25px; */
+  min-height: 93%;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-} */
+  /* flex-wrap: wrap;
+ */
+  flex-direction: column;
+  &--title {
+    font-size: 1.5em;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+
+  &--desc {
+    font-size: 1.2em;
+    color: #fff;
+    max-width: 350px;
+    &::before {
+      content: "";
+    }
+    &::after {
+      content: "Clica na imagem para vê as informaçes de cada projeto.";
+    }
+    @media screen {
+      @media (min-width: 700px) {
+        &::before {
+          content: "";
+        }
+        &::after {
+          content: "Passe o mouse pela imagem para vê as informaçes de cada projeto.";
+        }
+      }
+    }
+  }
+}
