@@ -1,3 +1,4 @@
+import { Footer } from "./components/atoms/index";
 import {
   SelfApresentation,
   AboutMe,
@@ -12,6 +13,7 @@ function App() {
       <AboutMe />
       <Projects />
       <Contact />
+      <Footer />
     </div>
   );
 }
