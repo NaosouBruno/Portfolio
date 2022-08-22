@@ -1,0 +1,11 @@
+.contact {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  min-height: 93%;
+  align-items: center;
+  &--title {
+    color: #fff;
+    font-size: 1.5em;
+  }
+}

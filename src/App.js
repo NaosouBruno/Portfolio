@@ -1,10 +1,9 @@
-import { NavHeader } from "./components/atoms/index";
 import {
   SelfApresentation,
   AboutMe,
   Projects,
-  Contact,
 } from "./components/molecules/index";
+import { Contact, NavHeader } from "./components/organisms/index";
 function App() {
   return (
     <div className="App">
