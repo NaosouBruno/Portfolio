@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./nav.scss";
-import { BtnNavItem } from "../index";
+import { BtnNavItem } from "../../atoms/index";
 function NavHeader() {
   const [clicked, setClicked] = useState(false);
 
