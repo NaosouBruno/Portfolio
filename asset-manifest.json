@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/NaosouBruno/Portfolio/static/css/main.70b438ff.css",
+    "main.js": "/NaosouBruno/Portfolio/static/js/main.43be2db0.js",
+    "static/media/euezezinho.jpeg": "/NaosouBruno/Portfolio/static/media/euezezinho.e40c599972d97c278557.jpeg",
+    "static/media/scroll-down-mouse.gif": "/NaosouBruno/Portfolio/static/media/scroll-down-mouse.0225a8b54ad986a00ee8.gif",
+    "static/media/eu2.jpeg": "/NaosouBruno/Portfolio/static/media/eu2.ec54c16aa712870ba54b.jpeg",
+    "static/media/Currículo.pdf": "/NaosouBruno/Portfolio/static/media/Currículo.0f066e714695d19fd239.pdf",
+    "index.html": "/NaosouBruno/Portfolio/index.html",
+    "main.70b438ff.css.map": "/NaosouBruno/Portfolio/static/css/main.70b438ff.css.map",
+    "main.43be2db0.js.map": "/NaosouBruno/Portfolio/static/js/main.43be2db0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70b438ff.css",
+    "static/js/main.43be2db0.js"
+  ]
+}
