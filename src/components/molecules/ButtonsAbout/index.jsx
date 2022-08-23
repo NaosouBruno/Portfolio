@@ -31,18 +31,6 @@ function DownCurriculo() {
           </a>
         </button>
       </div>
-      {/*   <div className="box">
-        <button className="curiculoContainer">
-          <TiMail className="curiculoContainer--icon" color="#fff" />
-          <a
-            href="mailto:brunoowap@gmail.com"
-            className="curiculoContainer--download"
-          >
-            Bruno Silva
-          </a>
-          .
-        </button>
-      </div> */}
     </IconContext.Provider>
   );
 }

@@ -26,9 +26,8 @@ function Projects() {
         projectLogoAlt="Foodieland logo"
         projectTitle="Foodieland"
         projectDesc="Projeto proposto no bootcamp da Valtech, desenvolvido 
-        em grupo. Consiste na criação de blog de receitas, nesse projeto 
-        utilizamos de conceitos como Atomic Design, BEM, Mobile First. Além de 
-        tecnologias como React, React Router, Redux e SASS"
+        em grupo. Consiste na criação de blog de receitas sendo realizado 
+        utilizando React"
         projectUrl="https://github.com/NaosouBruno/V-Food"
       />
       <CardProjects
