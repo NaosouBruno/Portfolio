@@ -4,11 +4,15 @@ $desktop: 1024px;
 
 /* cores */
 $colorLight: #fff;
+$colorDark: #000;
+
 $colorBackground: #1c2137;
 $colorBackgroundFooter: #101839;
 $colorBackgroundAbout: #2c324c;
 $colorBackgroundFunctionalButtons: #0c1022;
 $colorFunctionalButtons: rgb(185, 171, 171);
+$colorProjectTitle: rgb(11, 6, 41);
+$colorProjectDesc: rgb(1, 4, 139);
 
 /* typography */
 $fontLora: "Lora", serif;
@@ -18,3 +22,4 @@ $tiny: 0.9em;
 $small: 1.3em;
 $paragraphMedium: 1.1em;
 $medium: 1.5em;
+$large: 2em;
