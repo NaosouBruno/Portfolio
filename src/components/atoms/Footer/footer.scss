@@ -1,12 +1,14 @@
+@use "/public/styles/variables" as *;
+
 .footerContainer {
   display: flex;
   align-items: center;
   min-width: 100%;
   min-height: 5%;
   justify-content: center;
-  background: #101839;
+  background: $colorBackgroundFooter;
   &--desc {
-    color: #fff;
-    font-size: 1.3em;
+    color: $colorLight;
+    font-size: $small;
   }
 }

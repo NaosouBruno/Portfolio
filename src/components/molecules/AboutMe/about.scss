@@ -1,15 +1,17 @@
+@use "/public/styles/variables" as *;
+
 .about {
   display: flex;
   flex-direction: column;
-  /* border: 1px solid blue; */
+
   min-width: 75%;
   padding: 10px;
   align-items: center;
-  background: #2c324c;
+  background: $colorBackgroundAbout;
   border-radius: 25px;
   margin-top: 60px;
   @media screen {
-    @media (min-width: 700px) {
+    @media (min-width: $tablet) {
       padding: 20px;
     }
   }
@@ -26,8 +28,14 @@
     margin-left: 10px;
   }
   &--desc {
-    font-family: "Lora", serif;
-    color: #fff;
-    font-size: 0.9rem;
+    font-family: $fontLora;
+    font-weight: $fontWeightSub;
+    color: $colorLight;
+    font-size: $tiny;
+    @media screen {
+      @media (min-width: $tablet) {
+        font-size: $paragraphMedium;
+      }
+    }
   }
 }
