@@ -1,3 +1,4 @@
+@use "/public/styles/variables" as *;
 .titleContainer {
   min-height: 93%;
 
@@ -6,7 +7,7 @@
   align-items: center;
   justify-content: center;
   @media screen {
-    @media (min-width: 700px) {
+    @media (min-width: $tablet) {
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: space-around;
@@ -14,21 +15,21 @@
   }
   &__containerSelfie {
     @media screen {
-      @media (min-width: 700px) {
+      @media (min-width: $tablet) {
         order: 2;
       }
     }
   }
   &__containerInfo {
     @media screen {
-      @media (min-width: 700px) {
+      @media (min-width: $tablet) {
         order: 1;
       }
     }
   }
   &--selfie {
     @media screen {
-      @media (min-width: 700px) {
+      @media (min-width: $tablet) {
         display: block;
         border-radius: 10%;
         width: 301px;
@@ -43,14 +44,14 @@
     justify-content: center;
     align-items: center;
     @media screen {
-      @media (min-width: 700px) {
+      @media (min-width: $tablet) {
         flex-basis: 100%;
       }
     }
   }
   &__typografy {
-    font-family: "Lora", serif;
-    color: rgb(181, 176, 176);
+    font-family: $fontLora;
+    color: $colorGray;
     font-size: 1.2rem;
 
     &--desc {
@@ -58,7 +59,7 @@
       flex-direction: column;
       align-items: center;
       @media screen {
-        @media (min-width: 700px) {
+        @media (min-width: $tablet) {
           font-size: 2.5rem;
         }
       }
@@ -67,16 +68,16 @@
     &--myName {
       font-size: 1.7rem;
       @media screen {
-        @media (min-width: 700px) {
+        @media (min-width: $tablet) {
           font-size: 3.5rem;
         }
       }
       &:hover {
-        color: rgb(208, 186, 17);
+        color: $animatedNameHover;
       }
     }
     &--proffesion {
-      font-family: "Aboreto", cursive;
+      font-family: $fontAboreto;
       position: relative;
       text-transform: uppercase;
       margin-top: 50px;
@@ -90,7 +91,7 @@
       &::before {
         content: attr(data-text);
         position: absolute;
-        color: rgb(208, 186, 17);
+        color: $animatedNameHover;
         width: 100px;
         overflow: hidden;
         white-space: nowrap;

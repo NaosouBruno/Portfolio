@@ -3,24 +3,15 @@ import { CardProjects } from "../index";
 import food from "../../../assets/foodland.png";
 import pokedex from "../../../assets/pokedexLogo.png";
 import vendas from "../../../assets/VendasLogo.png";
-/* import projectsData from "../../../data/projects.json"; */
+
 function Projects() {
-  /* const maped = projectsData.map((project) => (
-    <CardProjects
-      projectLogo={project.logo}
-      projectLogoAlt={project.logoAlt}
-      projectTitle={project.title}
-      projectDesc={project.desc}
-      projectUrl={project.url}
-    />
-  )); */
   return (
     <section id="projetos" className="projects">
       <div className="projects__typografy">
         <h2 className="projects--title">Projetos</h2>
         <p className="projects--desc"></p>
       </div>
-      {/*   {maped} */}
+
       <CardProjects
         projectLogo={food}
         projectLogoAlt="Foodieland logo"
