@@ -1,3 +1,5 @@
+@use "/public/styles/variables" as *;
+
 .projects {
   margin-top: 25px;
   min-height: 93%;
@@ -7,7 +9,7 @@
 
   flex-direction: column;
   @media screen {
-    @media (min-width: 700px) {
+    @media (min-width: $tablet) {
       flex-direction: row;
       flex-wrap: wrap;
     }
@@ -17,20 +19,20 @@
     align-items: center;
     display: flex;
     @media screen {
-      @media (min-width: 700px) {
+      @media (min-width: $tablet) {
         flex-basis: 100%;
       }
     }
   }
   &--title {
     font-size: 1.5em;
-    color: #fff;
+    color: $colorLight;
     margin-bottom: 10px;
   }
 
   &--desc {
     font-size: 1.2em;
-    color: #fff;
+    color: $colorLight;
     max-width: 350px;
     &::before {
       content: "";
@@ -39,7 +41,7 @@
       content: "Clica na imagem para vê as informaçes de cada projeto.";
     }
     @media screen {
-      @media (min-width: 700px) {
+      @media (min-width: $tablet) {
         min-width: 520px;
         &::before {
           content: "";
