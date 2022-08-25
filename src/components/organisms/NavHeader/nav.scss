@@ -1,9 +1,10 @@
+@use "/public/styles/variables" as *;
 .navContainer {
   height: 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #222637;
+  background: $colorNavBackground;
 }
 .navContainer {
   &__items {
@@ -12,16 +13,16 @@
     top: 60px;
     display: flex;
     flex-direction: column;
-    background: #060a1b;
+    background: $colorDarkBlue;
     left: 0;
     width: 100%;
     height: 100%;
     transform: translateX(-100%);
     transition: all 0.45s;
     @media screen {
-      @media (min-width: 700px) {
+      @media (min-width: $tablet) {
         transform: translateX(0);
-        background: #222637;
+        background: $colorNavBackground;
         flex-direction: row;
         top: 0;
         height: 60px;
@@ -44,7 +45,7 @@
   justify-content: center;
   cursor: pointer;
   @media screen {
-    @media (min-width: 700px) {
+    @media (min-width: $tablet) {
       display: none;
     }
   }
@@ -53,7 +54,7 @@
     position: relative;
     width: 32px;
     height: 2px;
-    background: #ffffff;
+    background: $colorLight;
     transition: all 0.45s ease-in-out;
     &::before {
       width: 25px;
@@ -69,7 +70,7 @@
       content: "";
       position: absolute;
       height: 2px;
-      background: #ffffff;
+      background: $colorLight;
       border-radius: 2px;
       transition: all 0.45s ease-in-out;
     }
