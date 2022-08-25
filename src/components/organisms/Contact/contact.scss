@@ -1,3 +1,4 @@
+@use "/public/styles/variables" as *;
 .contact {
   margin-top: 25px;
   display: flex;
@@ -6,7 +7,7 @@
   align-items: center;
 
   &--title {
-    color: #fff;
-    font-size: 1.5em;
+    color: $colorLight;
+    font-size: $medium;
   }
 }
