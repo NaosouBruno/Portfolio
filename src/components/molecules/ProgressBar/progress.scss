@@ -1,9 +1,11 @@
+@use "/public/styles/variables" as *;
+@use "/public/styles/cardAnimations" as *;
 .skills {
   margin-top: 15px;
-  color: white;
-  /* width: 400px; */
+  color: $colorLight;
+
   min-width: 90%;
-  box-shadow: 5px 5px 10px rgb(255, 255, 255);
+  box-shadow: $shadowWhiteMedium;
   border-radius: 10px;
   padding: 10px 15px;
 
@@ -26,9 +28,8 @@
     position: relative;
     height: 10px;
     width: 100%;
-    background: #f0f0f0;
-    box-shadow: inset 0px 1px 1px rgb(0, 0, 0, 0.5),
-      0px 1px rgba(255, 255, 255, 0.8);
+    background: $animatedProgressBackground;
+    box-shadow: $ShadowWhiteProgress;
     transform: scaleX(0);
     transform-origin: left;
     animation: progressBar 1s cubic-bezier(1, 0, 0.5, 1) forwards;
@@ -36,7 +37,7 @@
   &__progressBar {
     height: 100%;
     width: 80%;
-    background: #6665ee;
+    background: $animatedProgressBar;
     position: absolute;
     border-radius: 10px;
     transform: scaleX(0);
@@ -52,17 +53,17 @@
       border: 7px solid transparent;
       border-bottom-width: 0px;
       border-right-width: 0px;
-      border-top-color: #000;
+      border-top-color: $colorDark;
     }
     &::after {
       position: absolute;
 
       right: 0;
       top: -28px;
-      color: #fff;
+      color: $colorLight;
       font-size: 12px;
       font-weight: 500;
-      background: #000;
+      background: $colorDark;
       padding: 1px 8px;
       border-radius: 3px;
     }

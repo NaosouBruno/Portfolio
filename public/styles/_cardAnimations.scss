@@ -2,7 +2,9 @@
 $shadowBlackLarge: 20px 20px 50px rgba(0, 0, 0, 0.5);
 $shadowBlackSamll: 0 5px 15px rgba(0, 0, 0, 0.2);
 $borderSolid: 1px solid rgba(255, 255, 255, 0.5);
-
+$shadowWhiteMedium: 5px 5px 10px rgb(255, 255, 255);
+$ShadowWhiteProgress: inset 0px 1px 1px rgb(0, 0, 0, 0.5),
+  0px 1px rgba(255, 255, 255, 0.8);
 /* Animations Colors */
 $animatedColorYellow: #ff0;
 $animatedColorPurple: conic-gradient(
@@ -17,3 +19,5 @@ $animatedColorPurpleStrong: conic-gradient(
   transparent,
   #4c4cdd
 );
+$animatedProgressBackground: #f0f0f0;
+$animatedProgressBar: #6665ee;
