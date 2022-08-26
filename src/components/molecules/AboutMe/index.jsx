@@ -1,10 +1,22 @@
 /* import { useState } from "react"; */
-
+import { useEffect, useState } from "react";
 import "./about.scss";
 import Zezin from "../../../assets/euezezinho.jpeg";
 import { ProgressBar /* VideoApresentation */, DownCurriculo } from "../index";
 
 function AboutMe() {
+  const [visible, setVisible] = useState(false);
+  const addObserver = () => {
+    const observer = new IntersectionObserver((entries) => {
+      if (entries.some((entry) => entry.isIntersecting) && visible === false) {
+        setVisible(true);
+      }
+    });
+    observer.observe(document.querySelector("#oberservar"));
+  };
+  useEffect(() => {
+    addObserver();
+  });
   /*  const [openVideo, setOpenVideo] = useState(false);
 
   const startVideo = () => {
@@ -28,7 +40,11 @@ function AboutMe() {
         </div>
       </div>
 
-      <ProgressBar />
+      <ProgressBar
+        id="oberservar"
+        animationProgress={visible ? "animationProgressBar" : ""}
+      />
+
       <DownCurriculo />
 
       {/*  {!openVideo ? (

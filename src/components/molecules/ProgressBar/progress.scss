@@ -20,10 +20,7 @@
     font-size: 17px;
     font-weight: 500;
   }
-  &__infoName {
-    opacity: 0;
-    animation: showName 0.5s 1s linear forwards;
-  }
+
   &__progress {
     position: relative;
     height: 10px;
@@ -32,7 +29,6 @@
     box-shadow: $ShadowWhiteProgress;
     transform: scaleX(0);
     transform-origin: left;
-    animation: progressBar 1s cubic-bezier(1, 0, 0.5, 1) forwards;
   }
   &__progressBar {
     height: 100%;
@@ -42,7 +38,7 @@
     border-radius: 10px;
     transform: scaleX(0);
     transform-origin: left;
-    animation: progressBar 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+
     &::before {
       position: absolute;
       content: "";
@@ -70,6 +66,9 @@
   }
 }
 
+.animationProgressBar {
+  animation: progressBar 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
 .html {
   & > .skills__progressBar {
     width: 60%;
