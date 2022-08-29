@@ -11,18 +11,18 @@ function NameTtile() {
       </div>
       <div className="titleContainer__containerInfo">
         <h1
-          className="titleContainer__typografy titleContainer__typografy--desc "
+          className="titleContainer__typography titleContainer__typography--desc "
           data-text="Dev. Front End Bruno Silva"
         >
           Olá, eu sou{" "}
-          <span className="titleContainer__typografy titleContainer__typografy--myName">
+          <span className="titleContainer__typography titleContainer__typography--myName">
             Bruno Silva
           </span>{" "}
         </h1>
 
         <div className="titleContainer__infos">
           <span
-            className="titleContainer__typografy titleContainer__typografy--proffesion"
+            className="titleContainer__typography titleContainer__typography--profession"
             data-text="&nbsp;Desenvolvedor Front End&nbsp;"
           >
             &nbsp;Desenvolvedor Front End&nbsp;

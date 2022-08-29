@@ -1,8 +1,7 @@
-/* import { useState } from "react"; */
 import { useEffect, useState } from "react";
 import "./about.scss";
 import Zezin from "../../../assets/euezezinho.jpeg";
-import { ProgressBar /* VideoApresentation */, DownCurriculo } from "../index";
+import { ProgressBar, DownCurriculo } from "../index";
 
 function AboutMe() {
   const [visible, setVisible] = useState(false);
@@ -17,11 +16,7 @@ function AboutMe() {
   useEffect(() => {
     addObserver();
   });
-  /*  const [openVideo, setOpenVideo] = useState(false);
 
-  const startVideo = () => {
-    setOpenVideo(true);
-  }; */
   return (
     <section id="sobreMim" className="about">
       <div className="about__headerInfos">
@@ -34,8 +29,8 @@ function AboutMe() {
             Zezinho. Nós moramos em Corumbá - MS também conhecida como a capital
             do pantanal, sou formado em Sistemas de Informação pela UFMS e meu
             foco é no front end. Nesse portfólio você irar encontrar os projetos
-            que desenvolvi, as tecnologias que domino, um video de introdução em
-            inglês e opções de entrar em contato.
+            que desenvolvi, as tecnologias que domino e opções de entrar em
+            contato.
           </p>
         </div>
       </div>
@@ -46,12 +41,6 @@ function AboutMe() {
       />
 
       <DownCurriculo />
-
-      {/*  {!openVideo ? (
-        <button onClick={startVideo}>Ver video</button>
-      ) : (
-        <VideoApresentation />
-      )} */}
     </section>
   );
 }

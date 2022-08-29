@@ -51,7 +51,7 @@
       }
     }
   }
-  &__typografy {
+  &__typography {
     font-family: $fontLora;
     color: $colorGray;
     font-size: 1.2rem;
@@ -78,7 +78,7 @@
         color: $animatedNameHover;
       }
     }
-    &--proffesion {
+    &--profession {
       font-family: $fontAboreto;
       position: relative;
       text-transform: uppercase;
@@ -86,7 +86,10 @@
       font-size: 1.5em;
       font-weight: 700;
       @media screen {
-        @media (min-width: 700px) {
+        @media (max-width: 400px) {
+          font-size: 1.4em;
+        }
+        @media (min-width: $tablet) {
           margin-top: 10px;
         }
       }
