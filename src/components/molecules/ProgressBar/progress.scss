@@ -111,9 +111,9 @@
 }
 .ing {
   & > .skills__progressBar {
-    width: 40%;
+    width: 50%;
     &::after {
-      content: "40%";
+      content: "50%";
     }
   }
 }
