@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.ee787641.css",
-    "main.js": "/Portfolio/static/js/main.d7acf2e7.js",
-    "static/media/Currículo.pdf": "/Portfolio/static/media/Currículo.58508ddad06cd4db1c02.pdf",
-    "static/media/euezezinho.jpeg": "/Portfolio/static/media/euezezinho.e40c599972d97c278557.jpeg",
-    "static/media/scroll-down-mouse.gif": "/Portfolio/static/media/scroll-down-mouse.0225a8b54ad986a00ee8.gif",
-    "static/media/eu2.jpeg": "/Portfolio/static/media/eu2.ec54c16aa712870ba54b.jpeg",
-    "index.html": "/Portfolio/index.html",
-    "main.ee787641.css.map": "/Portfolio/static/css/main.ee787641.css.map",
-    "main.d7acf2e7.js.map": "/Portfolio/static/js/main.d7acf2e7.js.map"
+    "main.css": "/static/css/main.ee787641.css",
+    "main.js": "/static/js/main.ac926ccc.js",
+    "static/media/Currículo.pdf": "/static/media/Currículo.58508ddad06cd4db1c02.pdf",
+    "static/media/euezezinho.jpeg": "/static/media/euezezinho.e40c599972d97c278557.jpeg",
+    "static/media/scroll-down-mouse.gif": "/static/media/scroll-down-mouse.0225a8b54ad986a00ee8.gif",
+    "static/media/eu2.jpeg": "/static/media/eu2.ec54c16aa712870ba54b.jpeg",
+    "index.html": "/index.html",
+    "main.ee787641.css.map": "/static/css/main.ee787641.css.map",
+    "main.ac926ccc.js.map": "/static/js/main.ac926ccc.js.map"
   },
   "entrypoints": [
     "static/css/main.ee787641.css",
-    "static/js/main.d7acf2e7.js"
+    "static/js/main.ac926ccc.js"
   ]
 }
